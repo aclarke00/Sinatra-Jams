@@ -1,0 +1,19 @@
+<% # shows a single instance %>
+
+
+
+<h2>Name: <%= @artist.name %> </h2>
+<br>
+<h2> Age: <%= @artist.age %> </h2>
+<br>
+<h2> Bio: <%= @artist.bio %> </h2>
+
+<form action="/artists/<%=@artist.id%>" method="POST"> 
+    <input type="hidden" name="_method" value="delete"> 
+    <input type="submit" value="kill me">
+</form> 
+
+
+<form action="/artists/<%=@artist.id%>/edit"> 
+    <input type="submit" value="edit me">
+</form>

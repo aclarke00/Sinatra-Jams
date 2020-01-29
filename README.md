@@ -8,7 +8,7 @@ Jams Inc. works with tens and tens of artists, so keeping track of their `name`,
 ## Create & Read 📓
 In keeping tradition with [RESTful](http://www.restular.com/) routes, Jams Inc. wants you to build out the following deliverables:
 
-* A database of `Artists` that will allow for a `name` string, `age` integer and `bio` string. If you created your database properly, you should be able to seed the database with the given `seeds.rb` file.
+* A database of `Artists` that will allow for a `name` string, `age` integer and `bio` string. If you created your database properly, you should be able to seed the database with the given `seeds.rb` file. #DONE
 
 * An index page that displays the names of all the artists in your database.
 
